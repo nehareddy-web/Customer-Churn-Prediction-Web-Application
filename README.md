@@ -1,6 +1,5 @@
 <!-- ============================================================
   HORROR README - Customer Churn Prediction Web Application
-  Paste into README.md of this repo. Search "EDIT" for things to check.
 ============================================================= -->
 
 <div align="center">
@@ -69,7 +68,6 @@ The customers who vanished all had something in common:
  🔴  TENURE > 12 MONTHS   →  tenure is a key signal in who stays or goes
  🔴  MONTHLY CHARGES      →  charges above ₹800 are a red flag
 ```
-<!-- EDIT: confirm the direction of each driver (e.g., month-to-month contracts churn more) and reword if you want it more specific -->
 
 ---
 
@@ -110,7 +108,6 @@ $ ./predict --customer=C-0427
 $ status
 > This customer has not vanished yet.
 ```
-<!-- This log is just storytelling to match the theme -->
 
 ---
 
@@ -123,7 +120,6 @@ $ status
 | Visualization | Matplotlib, Seaborn |
 | Modelling | Scikit-learn, XGBoost |
 | Deployment | Streamlit |
-<!-- EDIT: remove Matplotlib/Seaborn/NumPy if you didn't use them -->
 
 ---
 
@@ -134,13 +130,7 @@ $ status
 git clone https://github.com/nehareddy-web/Customer-Churn-Prediction-Web-Application.git
 cd Customer-Churn-Prediction-Web-Application
 
-# 2. Install the dependencies
-pip install -r requirements.txt
-
-# 3. Summon the app
-streamlit run app.py
 ```
-<!-- EDIT: change app.py and requirements.txt if your files have different names -->
 
 ---
 
@@ -149,7 +139,6 @@ streamlit run app.py
 - 🔴 Connect the app to a live SQL database
 - 🔴 Add feature-importance charts inside the app
 - 🔴 Try more models and compare against XGBoost
-<!-- EDIT: keep only the ones you actually plan to do -->
 
 ---
 
